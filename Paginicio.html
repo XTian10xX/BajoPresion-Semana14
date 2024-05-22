@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Tres Secciones Verticales</title>
+    <style>
+      body {
+        display: flex;
+        margin: 10;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        right: 20vh;
+        
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+        width: 250px;
+
+    
+      }
+      
+      .section-button {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 5px;
+        text-align: center; 
+        background-color: #f0f0f0;
+        cursor: pointer; 
+        outline: none; 
+        background-color: deeppink;
+        color: #ffffff;
+        
+      }
+    .container-h1
+    {
+        width: 200%;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .titulo {
+     position: absolute;
+     top: 10%;
+     width: 100vh;
+     background-color: #ff2692;
+     color: #f0f0f0;
+     text-align: center;
+    }
+    </style>
+    </head>
+    <header>
+        <section class="container">
+            <h1 class="titulo">
+                TECNICO LABORAL COMO ASISTENTE EN DESARROLLO DE SOFTWARE 
+             </h1>
+        </section>
+         
+    </header>
+    <body>
+        <section>
+            <div class="container">
+                <div class="texto"><strong>1°Nivel</strong></div>
+              <button class="section-button">Introduccion a la programacion</button>
+              <button class="section-button">Logica de programacion</button>
+              <button class="section-button">Gestion de bases de datos</button>
+            </div>
+        </section>
+        <section>
+        <div class="container">
+            <div class="texto"><strong>2°Nivel</strong></div>
+          <button class="section-button">Font 1</button>
+          <button class="section-button">Back 1</button>
+          <button class="section-button">Metodologias agiles</button>
+        </div></section>
+      
+      <section>
+        <div class="container">
+            <div class="texto"><strong>3°Nivel</strong></div>
+          <button class="section-button">Font 2</button>
+          <button class="section-button">Back 2</button>
+          <button class="section-button">Nuevas tecnologias de la programación</button>
+        </div>
+    </section>
+
+      </body>
+    </html>
