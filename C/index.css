@@ -1,0 +1,132 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+#root {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.contenedor {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor .nombre {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: JetBrains Mono, monospace;
+}
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.nombre h1, .contenido h1 {
+    text-transform: uppercase;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.contenido {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor .contenido {
+    width: 60%;
+    background-color: #ee2b7b;
+}
+
+:-webkit-any(article, aside, nav, section) :-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+:-webkit-any(article, aside, nav, section) h1 {
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.contenido ul {
+    width: 100%;
+    list-style: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    flex-direction: column;
+    gap: 2%;
+}
+
+.contenido ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1%;
+    width: 60%;
+    height: 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+.regresar {
+    position: fixed;
+    bottom: 3%;
+    right: 2%;
+    width: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
